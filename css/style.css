@@ -210,76 +210,76 @@ IMG.displayed {
 
 
 #overview-top-desktop {
-	background: #fff url(../img/crowd-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/crowd.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #overview-top-mobile {
-	background: #fff url(../img/crowd-opt.jpg) no-repeat center;
+	background: #fff url(../img/crowd.jpg) no-repeat center;
 }
 
 #guidenetwork-top-desktop {
-	background: #fff url(../img/guidenetwork-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/guidenetwork.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #guidenetwork-top-mobile {
-	background: #fff url(../img/guidenetwork-opt.jpg) no-repeat center;
+	background: #fff url(../img/guidenetwork.jpg) no-repeat center;
 }
 
 #waybook-top-desktop {
-	background: #fff url(../img/water_drop-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/water_drop.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #waybook-top-mobile {
-	background: #fff url(../img/water_drop-opt.jpg) no-repeat center;
+	background: #fff url(../img/water_drop.jpg) no-repeat center;
 }
 
 
 #platform-top-desktop {
-	background: #fff url(../img/works_bg-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/works_bg.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #platform-top-mobile {
-	background: #fff url(../img/works_bg-opt.jpg) no-repeat center;
+	background: #fff url(../img/works_bg.jpg) no-repeat center;
 }
 
 #works-top-desktop {
-	background: #fff url(../img/works_bg-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/works_bg.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #works-top-mobile {
-	background: #fff url(../img/works_bg-opt.jpg) no-repeat center;
+	background: #fff url(../img/works_bg.jpg) no-repeat center;
 }
 
 #gallery-top-desktop {
-	background: #fff url(../img/gallery_bg-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/gallery_bg.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #gallery-top-mobile {
-	background: #fff url(../img/gallery_bg-opt.jpg) no-repeat center;
+	background: #fff url(../img/gallery_bg.jpg) no-repeat center;
 }
 
 #team-top-desktop {
-	background: #fff url(../img/team_bg-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/team_bg.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #team-top-mobile {
-	background: #fff url(../img/team_bg-opt.jpg) no-repeat center;
+	background: #fff url(../img/team_bg.jpg) no-repeat center;
 }
 
 #contact-top-desktop {
-	background: #fff url(../img/contact_bg-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/contact_bg.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #contact-top-mobile {
-	background: #fff url(../img/contact_bg-opt.jpg) no-repeat center;
+	background: #fff url(../img/contact_bg.jpg) no-repeat center;
 }
 
 #waybook-top-desktop,
@@ -885,10 +885,4 @@ input[type="text"], select, textarea {
 	-moz-animation-name: fadeInUp;
 	-o-animation-name: fadeInUp;
 	animation-name: fadeInUp;
-}
-
-/* Override for mbtn*/
-
-.m-btn [class^="icon-"]{
-	background-image: none;
 }
