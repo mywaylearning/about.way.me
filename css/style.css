@@ -81,7 +81,17 @@ p.center {
 h4 {
 	font-size: 13px;
 	font-weight: 100;
-	color: #bbbdc0;
+	color: #03c615;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 35px 0;
+}
+
+h4green {
+	font-size: 13px;
+	font-weight: 100;
+	color: #4C4C4C;
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 1px;
@@ -210,76 +220,76 @@ IMG.displayed {
 
 
 #overview-top-desktop {
-	background: #fff url(../img/crowd-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/crowd.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #overview-top-mobile {
-	background: #fff url(../img/crowd-opt.jpg) no-repeat center;
+	background: #fff url(../img/crowd.jpg) no-repeat center;
 }
 
 #guidenetwork-top-desktop {
-	background: #fff url(../img/guidenetwork-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/guidenetwork.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #guidenetwork-top-mobile {
-	background: #fff url(../img/guidenetwork-opt.jpg) no-repeat center;
+	background: #fff url(../img/guidenetwork.jpg) no-repeat center;
 }
 
 #waybook-top-desktop {
-	background: #fff url(../img/water_drop-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/water_drop.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #waybook-top-mobile {
-	background: #fff url(../img/water_drop-opt.jpg) no-repeat center;
+	background: #fff url(../img/water_drop.jpg) no-repeat center;
 }
 
 
 #platform-top-desktop {
-	background: #fff url(../img/works_bg-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/works_bg.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #platform-top-mobile {
-	background: #fff url(../img/works_bg-opt.jpg) no-repeat center;
+	background: #fff url(../img/works_bg.jpg) no-repeat center;
 }
 
 #works-top-desktop {
-	background: #fff url(../img/works_bg-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/works_bg.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #works-top-mobile {
-	background: #fff url(../img/works_bg-opt.jpg) no-repeat center;
+	background: #fff url(../img/works_bg.jpg) no-repeat center;
 }
 
 #gallery-top-desktop {
-	background: #fff url(../img/gallery_bg-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/gallery_bg.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #gallery-top-mobile {
-	background: #fff url(../img/gallery_bg-opt.jpg) no-repeat center;
+	background: #fff url(../img/gallery_bg.jpg) no-repeat center;
 }
 
 #team-top-desktop {
-	background: #fff url(../img/team_bg-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/team_bg.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #team-top-mobile {
-	background: #fff url(../img/team_bg-opt.jpg) no-repeat center;
+	background: #fff url(../img/team_bg.jpg) no-repeat center;
 }
 
 #contact-top-desktop {
-	background: #fff url(../img/contact_bg-opt.jpg) fixed no-repeat center;
+	background: #fff url(../img/contact_bg.jpg) fixed no-repeat center;
 	background-size: cover;
 }
 
 #contact-top-mobile {
-	background: #fff url(../img/contact_bg-opt.jpg) no-repeat center;
+	background: #fff url(../img/contact_bg.jpg) no-repeat center;
 }
 
 #waybook-top-desktop,
@@ -687,6 +697,16 @@ input[type="text"], select, textarea {
 }
 
 .thumbnail h4 {
+	color: #03c615;
+	padding: 20px;
+	margin: 0;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: none;
+	letter-spacing: -1px;
+}
+
+.thumbnail h4green {
 	color: #484848;
 	padding: 20px;
 	margin: 0;
@@ -728,6 +748,16 @@ input[type="text"], select, textarea {
 }
 
 #team.thumbnail h4 {
+	color: #00d800;
+	padding: 20px;
+	margin: 0;
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: none;
+	letter-spacing: -1px;
+}
+
+#team.thumbnail h4green {
 	color: #00d800;
 	padding: 20px;
 	margin: 0;
@@ -887,8 +917,7 @@ input[type="text"], select, textarea {
 	animation-name: fadeInUp;
 }
 
-/* Override for mbtn*/
-
-.m-btn [class^="icon-"]{
-	background-image: none;
+/*=== Overrides ====*/
+.m-btn.purple {
+  background-color: #7140ce;
 }
