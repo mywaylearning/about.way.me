@@ -58,6 +58,7 @@ h101 {
 
 h1 {
 	font-size: 56px;
+	font-family:optima;
 	text-align: center;
 	margin-bottom: 35px;
 	line-height: 1;
@@ -81,7 +82,17 @@ p.center {
 h4 {
 	font-size: 13px;
 	font-weight: 100;
-	color: #bbbdc0;
+	color: #03c615;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	margin: 35px 0;
+}
+
+h4green {
+	font-size: 13px;
+	font-weight: 100;
+	color: #4C4C4C;
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 1px;
@@ -687,6 +698,16 @@ input[type="text"], select, textarea {
 }
 
 .thumbnail h4 {
+	color: #03c615;
+	padding: 20px;
+	margin: 0;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: none;
+	letter-spacing: -1px;
+}
+
+.thumbnail h4green {
 	color: #484848;
 	padding: 20px;
 	margin: 0;
@@ -728,6 +749,16 @@ input[type="text"], select, textarea {
 }
 
 #team.thumbnail h4 {
+	color: #00d800;
+	padding: 20px;
+	margin: 0;
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: none;
+	letter-spacing: -1px;
+}
+
+#team.thumbnail h4green {
 	color: #00d800;
 	padding: 20px;
 	margin: 0;
@@ -885,4 +916,13 @@ input[type="text"], select, textarea {
 	-moz-animation-name: fadeInUp;
 	-o-animation-name: fadeInUp;
 	animation-name: fadeInUp;
+}
+
+/*=== Overrides ====*/
+.m-btn.purple {
+  background-color: #7140ce;
+}
+
+.m-btn [class^="icon-"] {
+  background-image: none;
 }
